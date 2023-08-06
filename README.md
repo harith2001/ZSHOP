@@ -1,5 +1,5 @@
-# ZSHOP
-Z Shop - Shopping application for visually challenged individuals 
+# ZShop
+ZShop - Shopping application for visually challenged individuals 
 
 **Team Members**
 Vithanage H.D :- IT21308284 (Leader)
