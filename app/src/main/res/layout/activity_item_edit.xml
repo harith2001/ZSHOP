@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemEdit">
+
+    <ImageView
+        android:id="@+id/editvoice3"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/notetx"
+        app:layout_constraintTop_toBottomOf="@+id/editvoice2"
+        app:srcCompat="@drawable/baseline_keyboard_voice_24" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="59dp"
+        android:text="Update Shopping Item"
+        android:textColor="#090909"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/itemtx"
+        android:layout_width="298dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:hint="Name of the Item"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/quantitytx"
+        android:layout_width="299dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:hint="Quantity of the item"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemtx" />
+
+    <EditText
+        android:id="@+id/notetx"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Notes"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quantitytx" />
+
+    <Button
+        android:id="@+id/BtnUpdate"
+        android:layout_width="105dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BtnDelete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notetx" />
+
+    <Button
+        android:id="@+id/BtnDelete"
+        android:layout_width="101dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="#CF1608"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BtnUpdate" />
+
+    <Button
+        android:id="@+id/btnCancel2"
+        android:layout_width="101dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="#EF9E25"
+        android:text="cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnDelete" />
+
+    <ImageView
+        android:id="@+id/editvoice1"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemtx"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/baseline_keyboard_voice_24" />
+
+    <ImageView
+        android:id="@+id/editvoice2"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/quantitytx"
+        app:layout_constraintTop_toBottomOf="@+id/editvoice1"
+        app:srcCompat="@drawable/baseline_keyboard_voice_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

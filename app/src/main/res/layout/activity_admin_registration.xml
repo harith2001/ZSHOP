@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminRegistration">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AdminRegistration">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="95dp"
+            android:background="#62C4F1"
+            android:text="Admin Registartion "
+            android:textColor="#191818"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNameR"
+            android:layout_width="315dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="24dp"
+            android:hint="Enter Full Name"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/editEmailR"
+            android:layout_width="311dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Enter Email "
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editNameR" />
+
+        <EditText
+            android:id="@+id/editPhoneR"
+            android:layout_width="311dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Enter Phone Number"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editEmailR" />
+
+        <EditText
+            android:id="@+id/editLocationR"
+            android:layout_width="311dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Enter the location"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editShopR" />
+
+        <EditText
+            android:id="@+id/editPassR"
+            android:layout_width="311dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editLocationR" />
+
+        <EditText
+            android:id="@+id/editRepassR"
+            android:layout_width="311dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Re enter Password"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editPassR" />
+
+        <EditText
+            android:id="@+id/editShopR"
+            android:layout_width="311dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Enter Shop Name"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editPhoneR" />
+
+        <Button
+            android:id="@+id/btnSubmitR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="116dp"
+            android:text="Submit"
+            app:layout_constraintEnd_toStartOf="@+id/btnCancelR"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editRepassR" />
+
+        <Button
+            android:id="@+id/btnCancelR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="53dp"
+            android:text="Cancel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editRepassR" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

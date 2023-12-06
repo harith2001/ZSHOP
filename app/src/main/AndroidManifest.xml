@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZSHOPFINAL"
+        tools:targetApi="31">
+        <service
+            android:name=".Service.MyAccessibilityService"
+            android:label="My Accessibility Service"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".AdminOrderConfirm"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingCartDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOrders"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".ItemEdit"
+            android:exported="false" />
+        <activity
+            android:name=".AddItem"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerProfileEdit"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingHistory"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingCart"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerRegistration"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerLogin"
+            android:exported="true" />
+        <activity
+            android:name=".FirstPage"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

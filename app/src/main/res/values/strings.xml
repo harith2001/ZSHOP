@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZSHOPFINAL</string>
+    <string name="fulllname" />
+    <string name="hello_message">Hello, %1$s</string>
+    <string name="shopping_cart_01">Shopping Cart 01</string>
+
+    <!--    DB Node Names -->
+    <string name="active_carts_db_node_name">ActiveCarts</string>
+    <string name="carts_history_db_node_name">CartsHistory</string>
+    <string name="shopping_history">Shopping History</string>
+    <string name="shopping_cart_details">Shopping Cart Details</string>
+</resources>

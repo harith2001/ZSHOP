@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "879708823580",
+    "firebase_url": "https://zshop-36ab4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zshop-36ab4",
+    "storage_bucket": "zshop-36ab4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879708823580:android:a57c6260cee3fab5a8bfd9",
+        "android_client_info": {
+          "package_name": "com.example.zshopfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879708823580-pknt3cmlqlm3obsv2gq6tp6rl5og47pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdUy-QnoJVrEJTDHkDT-lLz2a0ZL7TQ8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879708823580-pknt3cmlqlm3obsv2gq6tp6rl5og47pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
